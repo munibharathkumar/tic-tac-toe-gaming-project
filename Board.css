@@ -1,0 +1,12 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 102px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
